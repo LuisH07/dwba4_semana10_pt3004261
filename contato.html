@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"/>
+    <link rel = "stylesheet" type = "text/css" href = "css/menu.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "css/eventos.css"/>
+    <title>ENTRAR - IFSP - Pirituba</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <nav>
+        <object width="100%" height="200px" data="menu.html"></object>
+      </nav>     
+    </header>
+    <main>
+      <h1> Mande uma Mensagem </h1>
+      <form method="POST">
+        <ul>
+          <li>
+            <label> Nome </label>
+            <input type="text" name="nome" id="cont-nome" required>
+          </li>
+          <li>
+            <label> E-Mail </label>
+            <input type="email" name="email" id="cont-email" required>
+          </li>
+          <li>
+            <label> Telefone </label>
+            <input type="tel" name="tel" id="cont-tel" required>
+            <label> (99)99999-9999 </label>
+          </li>
+          <li>
+            <label> Assunto </label>
+            <select>
+              <option> -- Selecione -- </option>
+              <option value = "recl"> Reclamação </option>
+              <option value = "suge"> Sugestão </option>
+            </select>
+          </li>
+          <li>
+            <label> Mensagem </label>
+            <textarea name="mens" id="cont-mens"></textarea>
+          </li>
+          <li>
+            <fieldset>
+              <legend> Opções de Resposta </legend>
+              <p>
+                <label> E-Mail </label>
+                <input type="checkbox" name="opcao-email" id="cont-opcao-email" value="email">
+                <label> Telefone </label>
+                <input type="checkbox" name="opcao-tel" id="cont-opcao-tel" value="tel" 
+              </p>
+            </fieldset>
+          </li>
+          <li>
+            <button type="submit"> Enviar </button>
+          </li>
+        </ul>
+      </form>
+    </main>
+    <br>
+    <footer>     
+      <object width="100%" height="200px" data="rodape.html"></object>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

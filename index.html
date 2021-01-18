@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"/>
+    <link rel = "stylesheet" type = "text/css" href = "css/menu.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "css/conteudo.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "css/gridlayout.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "css/slide.css"/>
+    <script type="text/javascript" src="js/slide.js" defer></script>
+    <title>HOME - IFSP - Pirituba - DWBA4</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <nav>
+        <object width="100%" height="200px" data="menu.html"></object>
+      </nav>     
+    </header>
+
+    <main id="conteudo">
+      <br>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="imagens/A.png" style="width:100%">
+          <div class="text">Caption One</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="imagens/B.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="imagens/C.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <h1>Conheça os desafios de inovação</h1>
+          <div class="videoWrapper">
+              <p align="center">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </p>
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="imagens/eleicoes.jpg" width="50%" height="50%">
+          <br>
+          <strong>Radar IFSP: informe-se sobre as eleições do dia 13 de outubro</strong>
+          <br>
+          <p>Todos os alunos e servidores podem votar; acesse aqui a cabine de votação online do seu câmpus</p>
+        </div>
+
+        <div class="grid-item">
+          <img src="imagens/snct.jpg" width="50%" height="50%">
+          <br>
+          <strong>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</strong>
+          <br>
+          <p>Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais</p>
+        </div> 
+
+        <div class="grid-item">
+          <img src="imagens/residencia.png">
+          <br>
+          <strong>IFSP oferece bolsa aos voluntários da Residência Pedagógica</strong>
+          <br>
+          <p>Bolsa de R$ 400,00 será paga pelo período de três meses</p>
+        </div> 
+
+        <div class="grid-item">
+          <img src="imagens/maratona.jpeg">
+          <br>
+          <strong>Inscrições abertas para a III Maratona InterIF</strong>
+          <br>
+          <p>Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de outubro</p>
+        </div>   
+      </div>
+    </main>
+    <br></br>
+    <footer>     
+      <object width="100%" height="200px" data="rodape.html"></object>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
